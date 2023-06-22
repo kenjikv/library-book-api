@@ -11,4 +11,8 @@ router.get('/books', verifyToken, (req, res) => {
     });
 });
 
+router.get('/',(req,res)=>{
+    res.send('Hello worlds');
+})
+
 module.exports = router;
