@@ -1,11 +1,12 @@
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-    host: 'mysql-database',
+    // host: 'mysql-database',
     // host: 'localhost',
+    host: 'db-mysql-garbage.mysql.database.azure.com',
     port: '3306',
-    user: 'root',
-    password: 'password',
+    user: 'library',
+    password: 'Garbage15963*',
     database: 'db-library-book'
 });
 
